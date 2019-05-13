@@ -19,8 +19,8 @@ function createTodoItem(title){
 
 
 	const deleteButton = document.createElement('button');
-	editButton.innerText = 'Удалить';
-	editButton.className = 'delete';
+	deleteButton.innerText = 'Удалить';
+	deleteButton.className = 'delete';
 
 	const listItem = document.createElement('li');
 	listItem.className = 'todo-item';
